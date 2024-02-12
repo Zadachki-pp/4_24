@@ -1,0 +1,393 @@
+The system is: Linux - 5.15.119 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /run/current-system/sw/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/lev145/CLionProjects/4_24/cmake-build-debug/CMakeFiles/3.24.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /run/current-system/sw/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/lev145/CLionProjects/4_24/cmake-build-debug/CMakeFiles/3.24.3/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/lev145/CLionProjects/4_24/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/nix/store/n4b9qjcaqys3dk43lzwhr9lni0v3brka-clion-2022.2.4/clion/bin/ninja/linux/ninja cmTC_27c25 && [1/2] Building C object CMakeFiles/cmTC_27c25.dir/CMakeCCompilerABI.c.o
+Using built-in specs.
+COLLECT_GCC=/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/bin/gcc
+Target: x86_64-unknown-linux-gnu
+Configured with: 
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.3.0 (GCC) 
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_27c25.dir/CMakeCCompilerABI.c.o' '-c' '-B' '/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/' '-idirafter' '/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include' '-idirafter' '/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed' '-B' '/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib' '-B' '/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin/' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_27c25.dir/'
+ /nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/cc1 -quiet -v -idirafter /nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include -idirafter /nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed /nix/store/plpp5fx4vk2dncpqiiz2qvn7nxrbx2fh-cmake-3.24.3/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_27c25.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /tmp/ccZuXQLs.s
+GNU C17 (GCC) version 11.3.0 (x86_64-unknown-linux-gnu)
+	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.20-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../x86_64-unknown-linux-gnu/include"
+ignoring duplicate directory "/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include"
+ignoring duplicate directory "/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed"
+#include "..." search starts here:
+#include <...> search starts here:
+ /nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include
+ /nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/include
+ /nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed
+ /nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include
+End of search list.
+GNU C17 (GCC) version 11.3.0 (x86_64-unknown-linux-gnu)
+	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.20-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 6a1ccce0b49a8ba29afe21e419a6acd1
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_27c25.dir/CMakeCCompilerABI.c.o' '-c' '-B' '/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/' '-idirafter' '/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include' '-idirafter' '/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed' '-B' '/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib' '-B' '/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin/' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_27c25.dir/'
+ /nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin/as -v --64 -o CMakeFiles/cmTC_27c25.dir/CMakeCCompilerABI.c.o /tmp/ccZuXQLs.s
+GNU assembler version 2.39 (x86_64-unknown-linux-gnu) using BFD version (GNU Binutils) 2.39
+COMPILER_PATH=/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/:/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib/:/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/
+LIBRARY_PATH=/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/:/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib/:/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../lib64/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_27c25.dir/CMakeCCompilerABI.c.o' '-c' '-B' '/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/' '-idirafter' '/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include' '-idirafter' '/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed' '-B' '/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib' '-B' '/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin/' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_27c25.dir/CMakeCCompilerABI.c.'
+[2/2] Linking C executable cmTC_27c25
+Using built-in specs.
+COLLECT_GCC=/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/bin/gcc
+COLLECT_LTO_WRAPPER=/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: 
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.3.0 (GCC) 
+COMPILER_PATH=/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/:/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib/:/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/
+LIBRARY_PATH=/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/:/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib/:/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../lib64/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_27c25' '-B' '/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/' '-idirafter' '/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include' '-idirafter' '/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed' '-B' '/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib' '-B' '/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin/' '-L/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib' '-L/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_27c25.'
+ /nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/collect2 -plugin /nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/liblto_plugin.so -plugin-opt=/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjW6Uob.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib64/ld-linux-x86-64.so.2 -o cmTC_27c25 /nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/crt1.o /nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/crti.o /nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/crtbegin.o -L/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib -L/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib -L/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib -L/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib -L/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin -L/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0 -L/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../lib64 -L/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../.. -dynamic-linker=/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/ld-linux-x86-64.so.2 CMakeFiles/cmTC_27c25.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/crtend.o /nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_27c25' '-B' '/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/' '-idirafter' '/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include' '-idirafter' '/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed' '-B' '/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib' '-B' '/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin/' '-L/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib' '-L/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_27c25.'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include]
+    add: [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/include]
+    add: [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed]
+    add: [/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include]
+  end of search list found
+  collapse include dir [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include] ==> [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include]
+  collapse include dir [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/include] ==> [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/include]
+  collapse include dir [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed] ==> [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed]
+  collapse include dir [/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include] ==> [/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include]
+  implicit include dirs: [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include;/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/include;/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed;/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/lev145/CLionProjects/4_24/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/nix/store/n4b9qjcaqys3dk43lzwhr9lni0v3brka-clion-2022.2.4/clion/bin/ninja/linux/ninja cmTC_27c25 && [1/2] Building C object CMakeFiles/cmTC_27c25.dir/CMakeCCompilerABI.c.o]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/bin/gcc]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.3.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_27c25.dir/CMakeCCompilerABI.c.o' '-c' '-B' '/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/' '-idirafter' '/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include' '-idirafter' '/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed' '-B' '/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib' '-B' '/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin/' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_27c25.dir/']
+  ignore line: [ /nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/cc1 -quiet -v -idirafter /nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include -idirafter /nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed /nix/store/plpp5fx4vk2dncpqiiz2qvn7nxrbx2fh-cmake-3.24.3/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_27c25.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /tmp/ccZuXQLs.s]
+  ignore line: [GNU C17 (GCC) version 11.3.0 (x86_64-unknown-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.20-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../x86_64-unknown-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include]
+  ignore line: [ /nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/include]
+  ignore line: [ /nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed]
+  ignore line: [ /nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 11.3.0 (x86_64-unknown-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.20-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 6a1ccce0b49a8ba29afe21e419a6acd1]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_27c25.dir/CMakeCCompilerABI.c.o' '-c' '-B' '/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/' '-idirafter' '/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include' '-idirafter' '/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed' '-B' '/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib' '-B' '/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin/' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_27c25.dir/']
+  ignore line: [ /nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin/as -v --64 -o CMakeFiles/cmTC_27c25.dir/CMakeCCompilerABI.c.o /tmp/ccZuXQLs.s]
+  ignore line: [GNU assembler version 2.39 (x86_64-unknown-linux-gnu) using BFD version (GNU Binutils) 2.39]
+  ignore line: [COMPILER_PATH=/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/:/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib/:/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/:/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib/:/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../lib64/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_27c25.dir/CMakeCCompilerABI.c.o' '-c' '-B' '/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/' '-idirafter' '/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include' '-idirafter' '/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed' '-B' '/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib' '-B' '/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin/' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_27c25.dir/CMakeCCompilerABI.c.']
+  ignore line: [[2/2] Linking C executable cmTC_27c25]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/:/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib/:/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/:/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib/:/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../lib64/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_27c25' '-B' '/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/' '-idirafter' '/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include' '-idirafter' '/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed' '-B' '/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib' '-B' '/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin/' '-L/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib' '-L/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_27c25.']
+  link line: [ /nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/collect2 -plugin /nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/liblto_plugin.so -plugin-opt=/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjW6Uob.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib64/ld-linux-x86-64.so.2 -o cmTC_27c25 /nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/crt1.o /nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/crti.o /nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/crtbegin.o -L/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib -L/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib -L/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib -L/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib -L/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin -L/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0 -L/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../lib64 -L/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../.. -dynamic-linker=/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/ld-linux-x86-64.so.2 CMakeFiles/cmTC_27c25.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/crtend.o /nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/crtn.o]
+    arg [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccjW6Uob.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_27c25] ==> ignore
+    arg [/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/crt1.o] ==> obj [/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/crt1.o]
+    arg [/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/crti.o] ==> obj [/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/crti.o]
+    arg [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/crtbegin.o] ==> obj [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/crtbegin.o]
+    arg [-L/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib] ==> dir [/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib]
+    arg [-L/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib] ==> dir [/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib]
+    arg [-L/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib] ==> dir [/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib]
+    arg [-L/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib] ==> dir [/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib]
+    arg [-L/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin] ==> dir [/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin]
+    arg [-L/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0] ==> dir [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0]
+    arg [-L/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../lib64] ==> dir [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../lib64]
+    arg [-L/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../..] ==> dir [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../..]
+    arg [-dynamic-linker=/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/ld-linux-x86-64.so.2] ==> ignore
+    arg [CMakeFiles/cmTC_27c25.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/crtend.o] ==> obj [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/crtend.o]
+    arg [/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/crtn.o] ==> obj [/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/crtn.o]
+  collapse library dir [/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib] ==> [/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib]
+  collapse library dir [/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib] ==> [/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib]
+  collapse library dir [/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib] ==> [/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib]
+  collapse library dir [/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib] ==> [/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib]
+  collapse library dir [/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin] ==> [/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin]
+  collapse library dir [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0] ==> [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0]
+  collapse library dir [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../lib64] ==> [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib64]
+  collapse library dir [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../..] ==> [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/crt1.o;/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/crti.o;/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/crtbegin.o;/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/crtend.o;/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/crtn.o]
+  implicit dirs: [/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib;/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib;/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin;/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0;/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib64;/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/lev145/CLionProjects/4_24/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/nix/store/n4b9qjcaqys3dk43lzwhr9lni0v3brka-clion-2022.2.4/clion/bin/ninja/linux/ninja cmTC_b21ce && [1/2] Building CXX object CMakeFiles/cmTC_b21ce.dir/CMakeCXXCompilerABI.cpp.o
+Using built-in specs.
+COLLECT_GCC=/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/bin/g++
+Target: x86_64-unknown-linux-gnu
+Configured with: 
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.3.0 (GCC) 
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_b21ce.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-B' '/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/' '-idirafter' '/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include' '-idirafter' '/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed' '-B' '/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib' '-B' '/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin/' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b21ce.dir/'
+ /nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/cc1plus -quiet -v -D_GNU_SOURCE -idirafter /nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include -idirafter /nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed /nix/store/plpp5fx4vk2dncpqiiz2qvn7nxrbx2fh-cmake-3.24.3/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_b21ce.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /tmp/cckkLRgk.s
+GNU C++17 (GCC) version 11.3.0 (x86_64-unknown-linux-gnu)
+	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.20-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../x86_64-unknown-linux-gnu/include"
+ignoring duplicate directory "/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include"
+ignoring duplicate directory "/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed"
+#include "..." search starts here:
+#include <...> search starts here:
+ /nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../include/c++/11.3.0
+ /nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../include/c++/11.3.0/x86_64-unknown-linux-gnu
+ /nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../include/c++/11.3.0/backward
+ /nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include
+ /nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/include
+ /nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed
+ /nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include
+End of search list.
+GNU C++17 (GCC) version 11.3.0 (x86_64-unknown-linux-gnu)
+	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.20-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: e32c0a855374a9cdcaf61cf86151e5e5
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_b21ce.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-B' '/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/' '-idirafter' '/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include' '-idirafter' '/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed' '-B' '/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib' '-B' '/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin/' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b21ce.dir/'
+ /nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin/as -v --64 -o CMakeFiles/cmTC_b21ce.dir/CMakeCXXCompilerABI.cpp.o /tmp/cckkLRgk.s
+GNU assembler version 2.39 (x86_64-unknown-linux-gnu) using BFD version (GNU Binutils) 2.39
+COMPILER_PATH=/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/:/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib/:/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/
+LIBRARY_PATH=/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/:/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib/:/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../lib64/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_b21ce.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-B' '/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/' '-idirafter' '/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include' '-idirafter' '/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed' '-B' '/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib' '-B' '/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin/' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b21ce.dir/CMakeCXXCompilerABI.cpp.'
+[2/2] Linking CXX executable cmTC_b21ce
+Using built-in specs.
+COLLECT_GCC=/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/bin/g++
+COLLECT_LTO_WRAPPER=/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: 
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.3.0 (GCC) 
+COMPILER_PATH=/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/:/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib/:/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/
+LIBRARY_PATH=/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/:/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib/:/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../lib64/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b21ce' '-B' '/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/' '-idirafter' '/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include' '-idirafter' '/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed' '-B' '/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib' '-B' '/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin/' '-L/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib' '-L/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b21ce.'
+ /nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/collect2 -plugin /nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/liblto_plugin.so -plugin-opt=/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1ly0Ls.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib64/ld-linux-x86-64.so.2 -o cmTC_b21ce /nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/crt1.o /nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/crti.o /nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/crtbegin.o -L/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib -L/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib -L/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib -L/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib -L/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin -L/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0 -L/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../lib64 -L/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../.. -dynamic-linker=/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/ld-linux-x86-64.so.2 CMakeFiles/cmTC_b21ce.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/crtend.o /nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b21ce' '-B' '/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/' '-idirafter' '/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include' '-idirafter' '/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed' '-B' '/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib' '-B' '/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin/' '-L/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib' '-L/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b21ce.'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../include/c++/11.3.0]
+    add: [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../include/c++/11.3.0/x86_64-unknown-linux-gnu]
+    add: [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../include/c++/11.3.0/backward]
+    add: [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include]
+    add: [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/include]
+    add: [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed]
+    add: [/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include]
+  end of search list found
+  collapse include dir [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../include/c++/11.3.0] ==> [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/include/c++/11.3.0]
+  collapse include dir [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../include/c++/11.3.0/x86_64-unknown-linux-gnu] ==> [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/include/c++/11.3.0/x86_64-unknown-linux-gnu]
+  collapse include dir [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../include/c++/11.3.0/backward] ==> [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/include/c++/11.3.0/backward]
+  collapse include dir [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include] ==> [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include]
+  collapse include dir [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/include] ==> [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/include]
+  collapse include dir [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed] ==> [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed]
+  collapse include dir [/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include] ==> [/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include]
+  implicit include dirs: [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/include/c++/11.3.0;/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/include/c++/11.3.0/x86_64-unknown-linux-gnu;/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/include/c++/11.3.0/backward;/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include;/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/include;/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed;/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/lev145/CLionProjects/4_24/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/nix/store/n4b9qjcaqys3dk43lzwhr9lni0v3brka-clion-2022.2.4/clion/bin/ninja/linux/ninja cmTC_b21ce && [1/2] Building CXX object CMakeFiles/cmTC_b21ce.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/bin/g++]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.3.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_b21ce.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-B' '/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/' '-idirafter' '/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include' '-idirafter' '/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed' '-B' '/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib' '-B' '/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin/' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b21ce.dir/']
+  ignore line: [ /nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/cc1plus -quiet -v -D_GNU_SOURCE -idirafter /nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include -idirafter /nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed /nix/store/plpp5fx4vk2dncpqiiz2qvn7nxrbx2fh-cmake-3.24.3/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_b21ce.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /tmp/cckkLRgk.s]
+  ignore line: [GNU C++17 (GCC) version 11.3.0 (x86_64-unknown-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.20-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../x86_64-unknown-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../include/c++/11.3.0]
+  ignore line: [ /nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../include/c++/11.3.0/x86_64-unknown-linux-gnu]
+  ignore line: [ /nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../include/c++/11.3.0/backward]
+  ignore line: [ /nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include]
+  ignore line: [ /nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/include]
+  ignore line: [ /nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed]
+  ignore line: [ /nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (GCC) version 11.3.0 (x86_64-unknown-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.20-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: e32c0a855374a9cdcaf61cf86151e5e5]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_b21ce.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-B' '/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/' '-idirafter' '/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include' '-idirafter' '/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed' '-B' '/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib' '-B' '/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin/' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b21ce.dir/']
+  ignore line: [ /nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin/as -v --64 -o CMakeFiles/cmTC_b21ce.dir/CMakeCXXCompilerABI.cpp.o /tmp/cckkLRgk.s]
+  ignore line: [GNU assembler version 2.39 (x86_64-unknown-linux-gnu) using BFD version (GNU Binutils) 2.39]
+  ignore line: [COMPILER_PATH=/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/:/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib/:/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/:/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib/:/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../lib64/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_b21ce.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-B' '/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/' '-idirafter' '/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include' '-idirafter' '/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed' '-B' '/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib' '-B' '/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin/' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b21ce.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [[2/2] Linking CXX executable cmTC_b21ce]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/:/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib/:/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/:/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib/:/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../lib64/:/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b21ce' '-B' '/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/' '-idirafter' '/nix/store/iczlqwdj10xiz3mmms6adnra0mn3ljk1-glibc-2.35-224-dev/include' '-idirafter' '/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/include-fixed' '-B' '/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib' '-B' '/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin/' '-L/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib' '-L/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b21ce.']
+  link line: [ /nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/collect2 -plugin /nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/liblto_plugin.so -plugin-opt=/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1ly0Ls.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib64/ld-linux-x86-64.so.2 -o cmTC_b21ce /nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/crt1.o /nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/crti.o /nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/crtbegin.o -L/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib -L/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib -L/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib -L/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib -L/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin -L/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0 -L/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../lib64 -L/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../.. -dynamic-linker=/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/ld-linux-x86-64.so.2 CMakeFiles/cmTC_b21ce.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/crtend.o /nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/crtn.o]
+    arg [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/libexec/gcc/x86_64-unknown-linux-gnu/11.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc1ly0Ls.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b21ce] ==> ignore
+    arg [/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/crt1.o] ==> obj [/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/crt1.o]
+    arg [/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/crti.o] ==> obj [/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/crti.o]
+    arg [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/crtbegin.o] ==> obj [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/crtbegin.o]
+    arg [-L/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib] ==> dir [/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib]
+    arg [-L/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib] ==> dir [/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib]
+    arg [-L/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib] ==> dir [/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib]
+    arg [-L/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib] ==> dir [/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib]
+    arg [-L/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin] ==> dir [/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin]
+    arg [-L/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0] ==> dir [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0]
+    arg [-L/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../lib64] ==> dir [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../lib64]
+    arg [-L/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../..] ==> dir [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../..]
+    arg [-dynamic-linker=/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/ld-linux-x86-64.so.2] ==> ignore
+    arg [CMakeFiles/cmTC_b21ce.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/crtend.o] ==> obj [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/crtend.o]
+    arg [/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/crtn.o] ==> obj [/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/crtn.o]
+  collapse library dir [/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib] ==> [/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib]
+  collapse library dir [/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib] ==> [/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib]
+  collapse library dir [/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib] ==> [/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib]
+  collapse library dir [/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib] ==> [/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib]
+  collapse library dir [/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin] ==> [/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin]
+  collapse library dir [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0] ==> [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0]
+  collapse library dir [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../../../lib64] ==> [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib64]
+  collapse library dir [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/../../..] ==> [/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/crt1.o;/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/crti.o;/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/crtbegin.o;/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0/crtend.o;/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib/crtn.o]
+  implicit dirs: [/nix/store/vnwdak3n1w2jjil119j65k8mw1z23p84-glibc-2.35-224/lib;/nix/store/6plx60y4x4q2lfp6n7190kaihyxr7m1w-gcc-11.3.0-lib/lib;/nix/store/y372k7srz9jm7v9sv2cs84g3crz27z1s-gcc-wrapper-11.3.0/bin;/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib/gcc/x86_64-unknown-linux-gnu/11.3.0;/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib64;/nix/store/wy4ywjsch9q2hj5lphqjdg9p2kf7w0ls-gcc-11.3.0/lib]
+  implicit fwks: []
+
+

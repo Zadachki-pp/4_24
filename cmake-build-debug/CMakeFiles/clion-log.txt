@@ -1,0 +1,16 @@
+/nix/store/n4b9qjcaqys3dk43lzwhr9lni0v3brka-clion-2022.2.4/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/nix/store/n4b9qjcaqys3dk43lzwhr9lni0v3brka-clion-2022.2.4/clion/bin/ninja/linux/ninja -G Ninja -S /home/lev145/CLionProjects/4_24 -B /home/lev145/CLionProjects/4_24/cmake-build-debug
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /run/current-system/sw/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /run/current-system/sw/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lev145/CLionProjects/4_24/cmake-build-debug
