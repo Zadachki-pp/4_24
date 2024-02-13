@@ -126,41 +126,41 @@ public:
 
     BigInt& operator*=(const BigInt& other) {
         size_t new_size = _size + other._size;  // 9x * 9x = 9xxx
-        auto* copy_digits = _copy_digits();
-        _delete_digits();
-        _create_digits(new_size);
-        _digits = copy_digits;
 
-        std::vector<BigInt> numbers_for_addition(other._size);
+        std::vector<uint16_t*> numbers_for_addition;
 
         for(size_t i = 0; i < other._size; i++) {
             auto& second_multiplier = other._digits[i];
-            auto& number_for_addition = numbers_for_addition[i];
-            number_for_addition._create_digits(new_size);
-            number_for_addition._size = new_size;
+            auto number_for_addition = new uint16_t[new_size]();
 
             uint16_t new_digit = 0;
             size_t j;
-            for(j = 0; j < i; j++) {
-                number_for_addition._digits[j] = 0;
-            }
+
             for(j = 0; j < _size; j++) {
                 new_digit += _digits[j] * second_multiplier;
 
-                number_for_addition._digits[j+i] = new_digit % 10;
+                number_for_addition[j+i] = new_digit % 10;
                 new_digit = new_digit / 10;
             }
-            number_for_addition._digits[j+i] = new_digit;
+            number_for_addition[j+i] = new_digit;
+
+            numbers_for_addition.push_back(number_for_addition);
         }
 
-        _size = new_size;
-        auto sum_ = numbers_for_addition[0];
+        this->_delete_digits();
+        this->_create_digits(new_size);
 
-        for(size_t i = 1; i < other._size; i++) {
-            sum_ += numbers_for_addition[i];
+        for(size_t i = 0; i < other._size; i++) {
+            *this += BigInt(numbers_for_addition[i], new_size);
         }
 
-        *this = BigInt(sum_);
+        for(size_t i = 0; i < other._size; i++) {
+            delete[] numbers_for_addition[i];
+        }
+
+        if (this->_digits[_size - 1] == 0){
+            _size--;
+        }
 
         return *this;
     }
