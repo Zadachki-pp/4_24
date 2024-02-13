@@ -38,9 +38,12 @@ class BigInt {
     }
 
 public:
-    BigInt() {
-        _size = 0;
-        _digits = {};
+    BigInt(uint16_t* digits, size_t size) { // NOLINT(cppcoreguidelines-pro-type-member-init)
+        /* Create from raw */
+
+        _size = size;
+        _create_digits(size);
+        _copy_to_digits(digits, size);
     }
 
 
