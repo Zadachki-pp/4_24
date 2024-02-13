@@ -221,17 +221,36 @@ std::ostream& operator<<(std::ostream& output, const BigInt& number) {
 
 
 int main() {
+    std::cout << "Конструктор:" << std::endl;
     BigInt a("151353562466743631513535624667436315135356246674363151353562466743631513535624667436315135356246674363");
-    BigInt b("151353562466743631513535624667436315135356246674363151353562466743631513535624667436315135356246674363");
+    std::cout << std::endl;
 
-    //a *= b;
-    //std::cout << a << std::endl;
-    //std::cout << BigInt("5") + BigInt("50") << std::endl;
-    std::cout << (BigInt(5) *= BigInt(1000)) << std::endl;
-    std::cout << (BigInt(5) *= BigInt(1000)) << std::endl;
-    std::cout << (BigInt(5) *= BigInt(1000)) << std::endl;
-    std::cout << (BigInt(5) *= BigInt(1000)) << std::endl;
-    std::cout << (BigInt(5) *= BigInt(1000)) << std::endl;
+    std::cout << "Конструктор копирования:" << std::endl;
+    BigInt b(a);
+    std::cout << std::endl;
+
+    std::cout << "Сравнения:" << std::endl;
+    std::cout << (a == b) << std::endl;
+    std::cout << (a != b) << std::endl;
+    std::cout << ((a + BigInt(1)) > b) << std::endl;
+    std::cout << ((a + BigInt(1)) < b) << std::endl;
+    std::cout << ((a * BigInt(1)) > b) << std::endl;
+    std::cout << std::endl;
+
+    std::cout << "Сумма и присваивание:" << std::endl;
+    BigInt c("999999");
+    c += a;
+    std::cout << c << std::endl;
+    c = a;
+    std::cout << c << std::endl;
+    std::cout << std::endl;
+
+    std::cout << "Возведение в степень 100:" << std::endl;
+    for(size_t i = 0; i < 99; i++){
+        a *= b;
+    }
+    std::cout << a << std::endl;
+    std::cout << std::endl;
 
     return 0;
 }
