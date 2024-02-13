@@ -20,7 +20,7 @@ class BigInt {
     uint16_t* _digits;
 
     void _create_digits(size_t size) {
-        _digits = new uint16_t[size];
+        _digits = new uint16_t[size]();
     }
 
     void _delete_digits() {
