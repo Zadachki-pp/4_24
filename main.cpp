@@ -46,7 +46,6 @@ public:
         _copy_to_digits(digits, size);
     }
 
-
     explicit BigInt(const char* string) { // NOLINT(cppcoreguidelines-pro-type-member-init)
         _size = strlen(string);
 
@@ -55,6 +54,7 @@ public:
         for(size_t i = 0; i < _size; i++) {
             _digits[i] = string[(_size-1) - i] - '0';
         }
+
     }
 
     explicit BigInt(size_t number) { // NOLINT(cppcoreguidelines-pro-type-member-init)
