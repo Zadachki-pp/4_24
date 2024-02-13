@@ -115,7 +115,7 @@ public:
         }
 
         _size = new_size;
-        if (new_digit == 0) {
+        if (this->_digits[_size - 1] == 0){
             _size--;
         } else {
             _digits[i] = new_digit;
