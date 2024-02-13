@@ -27,8 +27,8 @@ class BigInt {
         delete[] _digits;
     }
 
-    uint16_t* _copy_digits() {
-        auto copy_digits = new uint16_t[_size];
+    uint16_t* _copy_digits(size_t size) {
+        auto copy_digits = new uint16_t[size];
         std::copy(_digits, _digits + _size, copy_digits);
         return copy_digits;
     }
@@ -97,9 +97,8 @@ public:
     BigInt& operator+=(const BigInt& other) {
         size_t new_size = std::max(_size, other._size) + 1;  // 9x + 9x = 1xx
 
-        auto* copy_digits = _copy_digits();
+        auto* copy_digits = _copy_digits(new_size);
         _delete_digits();
-        _create_digits(new_size);
         _digits = copy_digits;
 
         size_t i = 0;
