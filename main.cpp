@@ -189,6 +189,27 @@ public:
         }
         return true;
     }
+
+    bool operator>(const BigInt& other) {
+        if (_size != other._size) {
+            return false;
+        }
+
+        for(size_t i = _size-1; i != -1; i--) {
+            if (_digits[i] != other._digits[i]) {
+                return _digits[i] > other._digits[i];
+            }
+        }
+        return false;
+    }
+
+    bool operator!=(const BigInt& other) {
+        return !(*this == other);
+    }
+
+    bool operator<(const BigInt& other) {
+        return !(*this > other) && !(*this == other);
+    }
 };
 
 std::ostream& operator<<(std::ostream& output, const BigInt& number) {
